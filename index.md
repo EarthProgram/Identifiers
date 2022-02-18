@@ -8,7 +8,7 @@ By restricting IIDs to on-chain assets, we create a new class of identifier uniq
 
 IIDs also introduce a few new features&mdash;conformant extensions to the DID Core specification&mdash;that provide for privacy-respecting options for the full range of expected token functionality, including Linked Resources, On-chain Service Endpoints, and Accorded Rights.
 
-DID Methods which conform to the IID specification resolve to DID Document representing how to securely interact with a uniquely identified digital asset, within a unique blockchain namespace. Because IIDs are DIDs, software applications that are conformant with the W3C specification will be able to inter-operate with IIDs and IID documents, although some IID-specific features may require additional tooling.
+DID Methods which conform to the IID specification resolve to DID Documents representing how to securely interact with a uniquely identified digital asset, within a unique blockchain namespace. Because IIDs are DIDs, software applications that are conformant with the W3C specification will be able to inter-operate with IIDs and IID documents, although some IID-specific features may require additional tooling.
 
 
 
@@ -44,7 +44,7 @@ That DID (if it weren't just an example) would resolve to a DID Document describ
 
 All DIDs *resolve* to their associated **DID Document**, which contain the verification methods and relationships and the service endpoints that secure interaction with the controller of the asset.
 
-**Verification Methods**, such a public key, may be used to establish verification relationships for the purpose of authentication, assertion, capability delegation, or capability
+**Verification Methods**, such as public keys, may be used to establish verification relationships for the purpose of authentication, assertion, capability delegation, or capability
 invocation.
 
 A standard format DID Document object defines these **verification relationships**, together with the specific cryptographic method associated with each verification purpose.
